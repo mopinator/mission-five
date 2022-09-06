@@ -1,3 +1,5 @@
+/* upper nav */
+
 .upper-nav {
 	display: flex;
 	justify-content: center;
@@ -13,6 +15,8 @@
 	text-decoration: none;
 	color: #0076be;
 }
+
+/* middle nav */
 
 .middle-nav {
 	display: flex;
@@ -94,6 +98,8 @@
 .mid-nav-text {
 	font-weight: 800;
 }
+
+/* lower nav */
 
 .lower-nav {
 	display: flex;
