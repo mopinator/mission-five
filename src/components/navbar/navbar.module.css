@@ -1,0 +1,140 @@
+.upper-nav {
+	display: flex;
+	justify-content: center;
+}
+
+.upper-nav-container {
+	display: flex;
+	padding-top: 1rem;
+}
+
+.upper-nav-container > a {
+	padding: 0 2em 0 2em;
+	text-decoration: none;
+	color: #0076be;
+}
+
+.middle-nav {
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+}
+
+.middle-nav-container {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 62vw;
+	padding: 2rem;
+}
+
+.middle-nav-inner-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 50vw;
+}
+.inner-container {
+	display: flex;
+	justify-content: space-around;
+	width: 30vw;
+}
+
+.phone-number,
+.location,
+.login {
+	display: flex;
+	align-items: center;
+}
+
+.chinese {
+	font-weight: 700;
+	color: red;
+}
+
+.login > a {
+	text-decoration: none;
+}
+
+.faPhone,
+.faLocationPin {
+	padding: 0 0.5em 0 0;
+	color: rgb(150, 150, 150);
+}
+
+.faUser {
+	color: white;
+	background-color: #0076be;
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	border: 2px solid #0076be;
+}
+
+.login-text {
+	padding: 0 0.5em 0 0.5em;
+}
+
+.or-text {
+	font-style: italic;
+	color: rgb(150, 150, 150);
+}
+
+.or-text,
+.register-text {
+	padding-right: 0.5em;
+}
+
+.login-text,
+.register-text {
+	font-weight: 700;
+	color: #0076be;
+}
+
+.mid-nav-text {
+	font-weight: 800;
+}
+
+.lower-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 4em;
+	background-color: #0076be;
+	border: 1px solid #0076be;
+}
+
+.lower-nav-inner-container {
+	display: flex;
+	justify-content: space-between;
+	width: 60vw;
+}
+
+.lower-left-nav {
+	display: flex;
+}
+
+.lower-left-nav > a {
+	padding: 1em 1.5em 1em 1.5em;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+
+.magnifying-glass {
+	padding-right: 0.5em;
+}
+
+.lower-right-nav {
+	display: flex;
+}
+
+.lower-right-nav > a {
+	padding: 1em 1.5em 1em 1.5em;
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+
+/**/
