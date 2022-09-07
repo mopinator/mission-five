@@ -1,5 +1,102 @@
 .mainBody {
-    background-color: black;
-    width:100%;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-left:10%;
+    width:80%;
+    height: 450px;
 }
+
+.mainBody h1 {
+    color:#2D76B8;
+    font-weight: bold;
+
+}
+
+.mainBody h5 {
+    color:#2D76B8;
+    font-weight: bold;
+
+}
+
+.mainBody h4 {
+    position: absolute;
+    margin-left: -73.5%;
+    color:#2D76B8;
+    font-weight: bolder;
+
+}
+
+.forgotPIN {
+    text-decoration: underline;
+    margin-left: 25%;
+
+}
+
+.nameCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    margin-left: -6.5%;
+    width: 100%;
+    height:17%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.profile {
+    margin-right: 15px;
+    
+}
+
+.profile text {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.pinNumber {
+    display: flex;
+    justify-content: center;
+    margin-right: 8.5%;
+    margin-top: 20px;
+}
+
+.pinNumber input {
+    text-align: center;
+    width:50px;
+    height:70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.accountButton button {
+    width: 100%;
+    margin-left:-6.5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color:#2D76B8;
+    height:50px;
+    border-radius: 30px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.accountButton1 button {
+    width: 100%;
+    margin-left:-6.5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #2D76B8;
+    background-color:white;
+    height:50px;
+    border-radius: 30px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
