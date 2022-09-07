@@ -1,15 +1,10 @@
-import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
-import MainBody from "./components/mainBody";
+import NewPin from './pages/newPin';
 
 
 function App() {
 	return (
 		<div className="App">
-			<Navbar />
-			<MainBody/>
-			<Footer />
+			<NewPin/>
 		</div>
 	);
 }
