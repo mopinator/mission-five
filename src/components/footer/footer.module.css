@@ -2,19 +2,18 @@
 
 .footerStyle {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	position: absolute;
-	bottom: 0;
-	/* background-color: #9a9b9c; */
-	height: 40%;
+	align-items: center;
+	height: 100%;
 	width: 100%;
-	/* margin-bottom: -25%; */
 }
 
 .footer-inner-container {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #9a9b9c;
+	padding: 3rem 0;
 	width: 80vw;
 }
 
@@ -35,11 +34,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 25%;
-	height: 15%;
-	width: 80%;
-	position: absolute;
-	bottom: 0;
+	width: 80vw;
 	background-color: #363636;
 }
 

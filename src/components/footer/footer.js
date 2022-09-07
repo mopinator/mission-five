@@ -91,27 +91,27 @@ export default function Footer() {
 				<h6>&#xa9; 2021 Turners</h6>
 				<div className={styles.buttonGroupStyle}>
 					<button className={styles.button}>
-						<i class="fa fa-home">
+						<i className="fa fa-home">
 							<text>Branch Details</text>
 						</i>
 					</button>
 					<button className={styles.button}>
-						<i class="fa fa-facebook">
+						<i className="fa fa-facebook">
 							<text>Facebook</text>
 						</i>
 					</button>
 					<button className={styles.button}>
-						<i class="fa fa-envelope">
+						<i className="fa fa-envelope">
 							<text>Newsletter</text>
 						</i>
 					</button>
 					<button className={styles.button}>
-						<i class="fa fa-envelope">
+						<i className="fa fa-envelope">
 							<text>Email Alerts</text>
 						</i>
 					</button>
 					<button className={styles.button}>
-						<i class="fa fa-instagram">
+						<i className="fa fa-instagram">
 							<text>Instagram</text>
 						</i>
 					</button>
