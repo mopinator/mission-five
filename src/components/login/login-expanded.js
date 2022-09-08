@@ -25,7 +25,7 @@ export default function LoginExpanded({ loginBox }) {
 
 						<button className={styles["login-button"]}>Login</button>
 						<p className={styles["insurance-text"]}>Don't have insurance with us?</p>
-						<button className={styles["quote-button"]}>Get Quote</button>
+						<button className={styles["quote-button"]}>Get Quote.</button>
 					</div>
 				</div>
 			</div>
