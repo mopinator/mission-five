@@ -15,6 +15,14 @@ export default function LoginExpanded({ loginBox }) {
 							<p className={styles["form-headers"]}>Password</p>
 							<input className={styles["input-boxes"]} type="password" placeholder="Enter password" />
 						</form>
+						<div className={styles["forgot-password"]}>
+							<div>
+								<input className={styles.checkbox} type="checkbox" />
+								Remember me
+							</div>
+							<a href="">Forgot Password?</a>
+						</div>
+
 						<button className={styles["login-button"]}>Login</button>
 						<p className={styles["insurance-text"]}>Don't have insurance with us?</p>
 						<button className={styles["quote-button"]}>Get Quote</button>
