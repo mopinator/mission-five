@@ -1,4 +1,3 @@
-// import { faSliders } from "@fortawesome/free-solid-svg-icons";
 import styles from "../login/login-expanded.module.css";
 
 export default function LoginExpanded({ loginBox }) {
