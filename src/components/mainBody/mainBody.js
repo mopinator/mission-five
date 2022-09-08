@@ -13,7 +13,7 @@ export default function MainBody() {
                 <div className={styles.nameCard}>
 
                     <div className={styles.profile}>
-                        <img src={profilePic}  width="75" height="60"/>
+                        <img src={profilePic} alt="profilepic"  width="75" height="60"/>
                         <text>Lillian Mackintosh</text>
 
                     </div>
